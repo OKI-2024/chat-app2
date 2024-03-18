@@ -6,6 +6,10 @@ def new
 
 end
 
+def index
+end
+
+
 def create
 
   @room = Room.new(room_params)
